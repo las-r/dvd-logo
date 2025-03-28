@@ -33,7 +33,7 @@ dvdm = pygame.transform.scale(pygame.image.load("images/dvdm.png"), (DVDWIDTH, D
 dvdr = pygame.transform.scale(pygame.image.load("images/dvdr.png"), (DVDWIDTH, DVDHEIGHT))
 dvdw = pygame.transform.scale(pygame.image.load("images/dvdw.png"), (DVDWIDTH, DVDHEIGHT))
 dvdy = pygame.transform.scale(pygame.image.load("images/dvdy.png"), (DVDWIDTH, DVDHEIGHT))
-dvd = dvdw
+dvd = random.choice([dvdb, dvdc, dvdg, dvdm, dvdr, dvdw, dvdy])
 
 # setup display
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
