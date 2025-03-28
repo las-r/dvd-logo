@@ -1,4 +1,4 @@
-# DVD Logo
+# DVD Logos
 Tons of bouncing DVD logos in many different forms and programming languages!
 
 Current forms:
