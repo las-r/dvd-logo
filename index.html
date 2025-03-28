@@ -48,7 +48,7 @@
         // variables
         let width = window.innerWidth, height = window.innerHeight;
         let x = Math.floor(width / 2), y = Math.floor(height / 2);
-        let dx = 2, dy = 2;
+        let dx = [-2, 2][Math.floor(Math.random() * 2)], dy = [-2, 2][Math.floor(Math.random() * 2)];
 
         // update dvd pos
         dvdColor();
