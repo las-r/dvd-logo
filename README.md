@@ -8,6 +8,7 @@ These are the bare criteria for the programs split into 3 levels.
 ### Mandatory
 - Logo is an image from `images/`.
 - Logo moves perfectly diagonally.
+- Logo bounced upon hitting edge.
 
 ### Recommended
 - Logo switches colors each bounce.
