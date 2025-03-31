@@ -15,6 +15,7 @@ These are the bare criteria for the programs split into 3 levels.
 
 ### Optional
 - Logo starts in center.
+- Logo starts in random direction.
 - Logo color can't switch to the color it already is.
 
 ## Current forms:
