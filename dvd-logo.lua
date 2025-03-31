@@ -52,9 +52,11 @@ function love.update()
     -- bounce dvd
     if x <= 0 or x >= WIDTH - 100 then
         xs = -xs
+        color()
     end
     if y <= 0 or y >= HEIGHT - 44 then
         ys = -ys
+        color()
     end
 end
 
