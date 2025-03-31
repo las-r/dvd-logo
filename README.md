@@ -3,7 +3,7 @@
 Tons of bouncing DVD logos in many different forms and programming languages!
 
 ## Basic Rules
-These are simple rules I made for myself while I made these programs. They're split into 3 levels.
+These are the bare criteria for the programs split into 3 levels.
 
 ### Mandatory
 - Logo is an image from `images/`.
