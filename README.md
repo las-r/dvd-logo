@@ -1,4 +1,4 @@
-[!GIF showing bouncing DVD logo.](https://github.com/user-attachments/assets/af004edd-e318-40ca-9cfe-9c78aae6d11f)
+![GIF showing bouncing DVD logo.](https://github.com/user-attachments/assets/af004edd-e318-40ca-9cfe-9c78aae6d11f)
 # DVD Logos
 Tons of bouncing DVD logos in many different forms and programming languages!
 
