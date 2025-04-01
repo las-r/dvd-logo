@@ -20,13 +20,13 @@ These are the bare criteria for the programs split into 3 levels.
 - Logo color can't switch to the color it already is.
 
 ## Current forms:
-- `p5.js` ([p5 Javascript](https://editor.p5js.org/ehan.nayif/full/61O4kyaYw))
-- `py.exe` (PyInstaller Windows Executable)
 - `.html` (HTML, JavaScript, & CSS)
+- `.js` ([Javascript w/ p5](https://editor.p5js.org/ehan.nayif/full/61O4kyaYw))
 - `.json` ([CatWeb Webpage](https://www.roblox.com/games/16855862021/CatWeb-Make-a-Website))
-- `.lua` (LÖVE Lua)
-- `.py` (Pygame Python)
-- `.rb` (Ruby)
+- `.lua` (Lua w/ LÖVE)
+- `.py` (Python w/ Pygame)
+- `.rb` (Ruby w/ Gosu)
+- `.rs` (Rust w/ Piston)
 - `.rbxl` ([Roblox Place](https://www.roblox.com/games/74258950827465/DVD-Logo))
 - `.sb3` ([Scratch Project](https://scratch.mit.edu/projects/1154557693/))
 - `.schem` (Minecraft WorldEdit Schematic)
