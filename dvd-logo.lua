@@ -28,6 +28,7 @@ end
 function love.load()
     -- setup window
     love.window.setMode(WIDTH, HEIGHT)
+    love.window.setTitle("DVD Logo")
 
     -- images
     dvdb = love.graphics.newImage("images/dvdb.png")
