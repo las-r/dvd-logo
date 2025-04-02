@@ -30,3 +30,6 @@ These are the bare criteria for the programs split into 3 levels.
 - `.rbxl` ([Roblox Place](https://www.roblox.com/games/74258950827465/DVD-Logo))
 - `.sb3` ([Scratch Project](https://scratch.mit.edu/projects/1154557693/))
 - `.schem` (Minecraft WorldEdit Schematic)
+
+## Extra forms:
+- [Desmos Graph](https://www.desmos.com/calculator/j0e1tcvd2b)
