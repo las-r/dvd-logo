@@ -20,9 +20,10 @@ These are the bare criteria for the programs split into 3 levels.
 - Logo color can't switch to the color it already is.
 
 ## Current forms:
+- `cat.json` ([CatWeb Webpage](https://www.roblox.com/games/16855862021/CatWeb-Make-a-Website))
+- `desmos.json` ([Desmos Graph](https://www.desmos.com/calculator/j0e1tcvd2b))
 - `.html` ([HTML, JavaScript, & CSS](https://las-r.github.io/dvd-logo/dvd-logo.html))
 - `.js` ([Javascript w/ p5](https://editor.p5js.org/ehan.nayif/full/61O4kyaYw))
-- `.json` ([CatWeb Webpage](https://www.roblox.com/games/16855862021/CatWeb-Make-a-Website))
 - `.lua` (Lua w/ LÖVE)
 - `.py` (Python w/ Pygame)
 - `.rb` (Ruby w/ Gosu)
@@ -30,6 +31,3 @@ These are the bare criteria for the programs split into 3 levels.
 - `.rbxl` ([Roblox Place](https://www.roblox.com/games/74258950827465/DVD-Logo))
 - `.sb3` ([Scratch Project](https://scratch.mit.edu/projects/1154557693/))
 - `.schem` (Minecraft WorldEdit Schematic)
-
-## Extra forms:
-- [Desmos Graph](https://www.desmos.com/calculator/j0e1tcvd2b)
