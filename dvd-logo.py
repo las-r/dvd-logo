@@ -20,10 +20,10 @@ DVDSPEED = 400
 BGCOLOR = (0, 0, 0)
 
 # variables
-xPos = WIDTH // 2
-yPos = HEIGHT // 2
-xDir = random.randint(0, 1)
-yDir = random.randint(0, 1)
+x = WIDTH // 2
+y = HEIGHT // 2
+xs = random.choice([-1, 1])
+ys = random.choice([-1, 1])
 
 # load dvd logos
 dvdb = pygame.transform.scale(pygame.image.load("images/dvdb.png"), (DVDWIDTH, DVDHEIGHT))
@@ -51,35 +51,19 @@ while running:
             running = False
 
     # dvd logo
-    screen.blit(dvd, (xPos, yPos))
+    screen.blit(dvd, (x, y))
 
     # move dvd position
-    if xDir:
-        xPos += 1
-    else:
-        xPos -= 1
-    if yDir:
-        yPos -= 1
-    else:
-        yPos += 1
+    x += xs
+    y += ys
 
     # bounce dvd logo
-    if xPos == 0:
-        xDir = 1
+    if x == 0 or x == WIDTH - DVDWIDTH:
+        xs = -xs
         dvdColor()
-    if xPos == WIDTH - DVDWIDTH:
-        xDir = 0
+    if y == 0 or y == HEIGHT - DVDHEIGHT:
+        ys = -ys
         dvdColor()
-    if yPos == 0:
-        yDir = 0
-        dvdColor()
-    if yPos == HEIGHT - DVDHEIGHT:
-        yDir = 1
-        dvdColor()
-
-    # detect corner hit
-    if (xPos == 0 or xPos == WIDTH - DVDWIDTH) and (yPos == 0 or yPos == HEIGHT - DVDHEIGHT):
-        print("omg it hit the corner wowowowow")
 
     # update display
     pygame.display.flip()
