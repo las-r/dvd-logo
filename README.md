@@ -23,7 +23,7 @@ These are the bare criteria for the programs split into 3 levels.
 - `arc.py` (Python w/ Arcade)
 - `cat.json` ([CatWeb Webpage](https://www.roblox.com/games/16855862021/CatWeb-Make-a-Website))
 - `dms.json` ([Desmos Graph](https://www.desmos.com/calculator/j0e1tcvd2b))
-- `pyg.py` (Python w/ Pygame)
+- `pg.py` (Python w/ Pygame)
 - `.html` ([HTML, JavaScript, & CSS](https://las-r.github.io/dvd-logo/dvd-logo.html))
 - `.js` ([Javascript w/ p5](https://editor.p5js.org/ehan.nayif/full/61O4kyaYw))
 - `.lua` (Lua w/ LÖVE)
