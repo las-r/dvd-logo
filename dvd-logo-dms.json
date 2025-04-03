@@ -4,9 +4,9 @@
     "graph": {
         "viewport": {
             "xmin": -56.343633240256956,
-            "ymin": -141.06940639110226,
+            "ymin": -62.362307483695716,
             "xmax": 52.41805430518763,
-            "ymax": 138.81066955917512
+            "ymax": 60.10357065176858
         },
         "xAxisArrowMode": "BOTH",
         "yAxisArrowMode": "BOTH",
@@ -26,7 +26,7 @@
                 "type": "expression",
                 "id": "9",
                 "color": "#388c46",
-                "latex": "b=-4.03",
+                "latex": "b=-4.3",
                 "hidden": true,
                 "slider": {
                     "hardMin": true,
@@ -41,13 +41,12 @@
                 "type": "expression",
                 "id": "8",
                 "color": "#2d70b3",
-                "latex": "a=-8.84",
+                "latex": "a=-23.87",
                 "hidden": true,
                 "slider": {
                     "hardMin": true,
                     "hardMax": true,
                     "animationPeriod": 5333.333333333333,
-                    "playDirection": -1,
                     "isPlaying": true,
                     "min": "-35",
                     "max": "35"
@@ -57,7 +56,7 @@
                 "type": "expression",
                 "id": "12",
                 "color": "#000000",
-                "latex": "\\left(2x+80\\right)\\left(2x-80\\right)+\\left(\\frac{2y}{60}\\right)^{32768}=0"
+                "latex": "\\left(4x^{2}-6400\\right)+\\left(\\frac{y}{30}\\right)^{100000}=0"
             }
         ]
     },
