@@ -6,11 +6,11 @@ Tons of bouncing DVD logos in many different forms and programming languages!
 These are the bare criteria for the programs split into 3 levels.
 
 ### Mandatory
-- Logo is an image from `images/`.
 - Logo moves perfectly diagonally.
 - Logo bounces upon hitting edge.
 
 ### Recommended
+- Logo is an image from `images/`.
 - Logo switches colors each bounce.
 - Logo isn't warped.
 
