@@ -12,8 +12,8 @@ display = max7219.Matrix8x8(spi, cs, 1)
 display.brightness(5)
 
 # pixel vals
-x, y = 1, 0
-dx, dy = rand, 1
+x, y = randint(0, 7), randint(0, 7)
+dx, dy = 2, 1
 
 # bounce loop
 while True:
@@ -35,4 +35,4 @@ while True:
         dy *= -1
         
     # delay
-    sleep_ms(100)
+    sleep_ms(250)
