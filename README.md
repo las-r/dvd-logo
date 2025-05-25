@@ -27,6 +27,7 @@ These are the bare criteria for the programs split into 3 levels.
 - `.html` ([HTML, JavaScript, & CSS](https://las-r.github.io/dvd-logo/dvd-logo.html))
 - `.js` ([Javascript w/ p5](https://editor.p5js.org/ehan.nayif/full/61O4kyaYw))
 - `.lua` (Lua w/ LÖVE)
+- `micro.py` (MicroPython w/ an 8x8 LED Matrix)
 - `.rb` (Ruby w/ Gosu)
 - `.rs` (Rust w/ Piston)
 - `.rbxl` ([Roblox Place](https://www.roblox.com/games/74258950827465/DVD-Logo))
