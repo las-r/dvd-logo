@@ -1,0 +1,59 @@
+# made by las-r on github
+
+# variables
+:alias x v1
+:alias y v2
+:alias r v3
+:alias u v4
+
+# dvd logo sprite
+: dvd
+	126 231 126
+
+# main
+: main
+	i := dvd
+	ve := 2
+
+	# dvd pos
+	x := 0
+	y := 0
+	
+	# dvd dir
+	r := 1
+	u := 0
+	
+	# main loop
+	loop
+		clear
+		
+		# movement
+		if r == 1 then
+			x += 1
+		if r == 0 then
+			x -= 1
+		if u == 1 then
+			y -= 1
+		if u == 0 then
+			y += 1
+			
+		# bounce
+		if x == 0 then
+			r := 1
+		if x == 56 then
+			r := 0
+		if y == 0 then
+			u := 0
+		if y == 29 then
+			u := 1
+			
+		# draw
+		sprite x y 3
+		
+		# delay
+		delay := ve
+		loop
+			vf := delay
+			if vf != 0 then
+		again
+	again
