@@ -25,7 +25,7 @@ These are the bare criteria for the programs split into 3 levels.
 - `dsm.json` ([Desmos Graph](https://www.desmos.com/calculator/j0e1tcvd2b))
 - `micro.py` (MicroPython w/ an 8x8 LED Matrix)
 - `pg.py` (Python w/ Pygame)
-- `.8o` ([CHIP-8 Source](https://johnearnest.github.io/Octo/index.html?key=QimENQ5s))
+- `.8o` (https://johnearnest.github.io/Octo/index.html?key=QimENQ5s)
 - `.ch8` ([CHIP-8 Compiled](https://johnearnest.github.io/Octo/index.html?key=QimENQ5s))
 - `.html` ([HTML, JavaScript, & CSS](https://las-r.github.io/dvd-logo/dvd-logo.html))
 - `.js` ([Javascript w/ p5](https://editor.p5js.org/ehan.nayif/full/61O4kyaYw))
