@@ -1,83 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- title -->
-    <title>DVD Logo</title>
-
-    <!-- style -->
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-            background-color: black;
-        }
-        #dvd {
-            position: absolute;
-            width: 100px;
-        }
-    </style>
-</head>
-<body>
-    <img id="dvd" src="images/dvdw.png" alt="DVD Logo">
-    <script>
-        // constants
-        const dvd = document.getElementById("dvd");
-        const dvdImages = ["images/dvdb.png",
-                           "images/dvdc.png",
-                           "images/dvdg.png",
-                           "images/dvdm.png",
-                           "images/dvdr.png",
-                           "images/dvdw.png",
-                           "images/dvdy.png"];
-
-        // random dvd color
-        function dvdColor() {
-            let oDvd = dvd.getAttribute("src");
-            let image;
-            
-            do {
-                image = dvdImages[Math.floor(Math.random() * dvdImages.length)];
-            } while (image === oDvd);
-        
-            dvd.setAttribute("src", image);
-        }        
-
-        // variables
-        let width = window.innerWidth, height = window.innerHeight;
-        let x = Math.floor(width / 2), y = Math.floor(height / 2);
-        let dx = [-2, 2][Math.floor(Math.random() * 2)], dy = [-2, 2][Math.floor(Math.random() * 2)];
-
-        // update dvd pos
-        dvdColor();
-        function update() {
-            x += dx;
-            y += dy;
-            
-            if (x + dvd.clientWidth >= width || x <= 0) {
-                dx = -dx;
-                dvdColor();
+    <!-- dvd logo made by las-r on github -->
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- title -->
+        <title>DVD Logo</title>
+    
+        <!-- style -->
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+                background-color: black;
             }
-            if (y + dvd.clientHeight >= height || y <= 0) {
-                dy = -dy;
-                dvdColor();
+            #dvd {
+                position: absolute;
+                width: 100px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <img id="dvd" src="images/dvdw.png" alt="DVD Logo">
+        <script>
+            // constants
+            const dvd = document.getElementById("dvd");
+            const dvdImages = ["images/dvdb.png",
+                               "images/dvdc.png",
+                               "images/dvdg.png",
+                               "images/dvdm.png",
+                               "images/dvdr.png",
+                               "images/dvdw.png",
+                               "images/dvdy.png"];
+    
+            // random dvd color
+            function dvdColor() {
+                let oDvd = dvd.getAttribute("src");
+                let image;
+                
+                do {
+                    image = dvdImages[Math.floor(Math.random() * dvdImages.length)];
+                } while (image === oDvd);
+            
+                dvd.setAttribute("src", image);
+            }        
+    
+            // variables
+            let width = window.innerWidth, height = window.innerHeight;
+            let x = Math.floor(width / 2), y = Math.floor(height / 2);
+            let dx = [-2, 2][Math.floor(Math.random() * 2)], dy = [-2, 2][Math.floor(Math.random() * 2)];
+    
+            // update dvd pos
+            dvdColor();
+            function update() {
+                x += dx;
+                y += dy;
+                
+                if (x + dvd.clientWidth >= width || x <= 0) {
+                    dx = -dx;
+                    dvdColor();
+                }
+                if (y + dvd.clientHeight >= height || y <= 0) {
+                    dy = -dy;
+                    dvdColor();
+                }
+                
+                dvd.style.left = x + "px";
+                dvd.style.top = y + "px";
+                requestAnimationFrame(update);
             }
             
-            dvd.style.left = x + "px";
-            dvd.style.top = y + "px";
-            requestAnimationFrame(update);
-        }
-        
-        // update width when window is resized
-        window.addEventListener("resize", () => {
-            width = window.innerWidth;
-            height = window.innerHeight;
-        });
-        
-        // update
-        update();
-    </script>
-</body>
+            // update width when window is resized
+            window.addEventListener("resize", () => {
+                width = window.innerWidth;
+                height = window.innerHeight;
+            });
+            
+            // update
+            update();
+        </script>
+    </body>
 </html>
