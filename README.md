@@ -24,6 +24,7 @@ These are the bare criteria for the programs split into 3 levels.
 - `cat.json` ([CatWeb Webpage](https://www.roblox.com/games/16855862021/CatWeb-Make-a-Website))
 - `dsm.json` ([Desmos Graph](https://www.desmos.com/calculator/j0e1tcvd2b))
 - `m.py` (MicroPython w/ an 8x8 LED Matrix)
+- `mb.py` (MicroPython on a micro:bit)
 - `pg.py` (Python w/ Pygame)
 - `.8o` (CHIP-8 Source)
 - `.ch8` ([CHIP-8 Compiled](https://johnearnest.github.io/Octo/index.html?key=QimENQ5s))
