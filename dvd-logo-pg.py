@@ -2,6 +2,8 @@ import pygame
 import random
 import time
 
+# dvd logo made by las-r on github
+
 # initialize
 pygame.init()
 
