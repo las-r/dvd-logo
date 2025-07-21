@@ -1,3 +1,5 @@
+-- dvd logo made by las-r on github
+
 -- settings
 WIDTH, HEIGHT = 800, 600
 
