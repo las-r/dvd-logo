@@ -1,6 +1,8 @@
 extern crate piston_window;
 use piston_window::*;
 
+// dvd logo made by las-r on github
+
 // main
 fn main() {
     // settings
