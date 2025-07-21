@@ -1,5 +1,7 @@
 require "gosu"
 
+# dvd logo made by las-r on github
+
 # window
 class Window < Gosu::Window
     def dvdColor
