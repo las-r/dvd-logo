@@ -2,8 +2,8 @@
 # DVD Logos
 Tons of bouncing DVD logos in many different forms and programming languages!
 
-## Basic Rules
-These are the bare criteria for the programs split into 3 levels.
+## Rules
+These are the criteria for the programs split into 3 levels.
 
 ### Mandatory
 - Logo bounces upon hitting edge.
