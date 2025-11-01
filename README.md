@@ -27,6 +27,7 @@ These are the criteria for the programs split into 3 levels.
 - `mb.py` (MicroPython on a micro:bit)
 - `pg.py` (Python w/ Pygame)
 - `.8o` (CHIP-8 Source)
+- `.bat` (Batch Script)
 - `.ch8` ([CHIP-8 Compiled](https://johnearnest.github.io/Octo/index.html?key=QimENQ5s))
 - `.html` ([HTML, JavaScript, & CSS](https://las-r.github.io/dvd-logo/dvd-logo.html))
 - `.js` ([Javascript w/ p5](https://editor.p5js.org/ehan.nayif/full/61O4kyaYw))
