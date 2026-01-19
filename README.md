@@ -26,7 +26,7 @@ These are the criteria for the programs split into 3 levels.
 - `dsm.json` ([Desmos Graph](https://www.desmos.com/calculator/j0e1tcvd2b))
 - `m.py` (MicroPython w/ an 8x8 LED Matrix)
 - `mb.py` (MicroPython on a micro:bit)
-- `p5.js` ([Javascript w/ p5](https://editor.p5js.org/ehan.nayif/full/61O4kyaYw))
+- `p5.js` ([Javascript w/ p5.js](https://editor.p5js.org/ehan.nayif/full/61O4kyaYw))
 - `pg.py` (Python w/ Pygame)
 - `.8o` (CHIP-8 Source)
 - `.bat` (Batch Script)
