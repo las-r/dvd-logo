@@ -35,6 +35,7 @@ These are the criteria for the programs split into 3 levels.
 - `.8o` (CHIP-8 Source)
 - `.bat` (Batch Script)
 - `.ch8` ([CHIP-8 Compiled](https://johnearnest.github.io/Octo/index.html?key=QimENQ5s))
+- `.exe` (Go w/ [Raylib](https://github.com/gen2brain/raylib-go/) Compiled)
 - `.go` (Go w/ [Raylib](https://github.com/gen2brain/raylib-go/))
 - `.html` ([HTML, JavaScript, & CSS](https://las-r.github.io/dvd-logo/dvd-logo.html))
 - `.lua` (Lua w/ LÖVE)
