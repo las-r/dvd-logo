@@ -35,7 +35,7 @@ while not window_should_close():
         dy *= -1
         cdvd = random.choice(dvdts)
     x = max(0, min(x, WIDTH))
-    y = max(0, min(y, WIDTH))
+    y = max(0, min(y, HEIGHT))
     
     # draw
     begin_drawing()
