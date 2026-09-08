@@ -75,8 +75,11 @@
             
             // update width when window is resized
             window.addEventListener("resize", () => {
-                width = window.innerWidth;
-                height = window.innerHeight;
+            width = window.innerWidth;
+            height = window.innerHeight;
+
+            x = Math.min(Math.max(x, 0), Math.max(0, width - dvd.clientWidth));
+            y = Math.min(Math.max(y, 0), Math.max(0, height - dvd.clientHeight));
             });
             
             // update
